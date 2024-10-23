@@ -3,16 +3,13 @@ package com.sanomush.mynotesapp
 import android.content.ContentValues
 import android.content.Intent
 import android.os.Bundle
-import android.provider.ContactsContract
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
 import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AlertDialog
-
 import androidx.appcompat.app.AppCompatActivity
-
 import com.sanomush.mynotesapp.databinding.ActivityNoteAddUpdateBinding
 import com.sanomush.mynotesapp.db.DatabaseContract
 import com.sanomush.mynotesapp.db.NoteHelper
